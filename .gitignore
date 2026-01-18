@@ -10,6 +10,12 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/TestBranch/[Ll]ibrary/
+/TestBranch/[Tt]emp/
+/TestBranch/[Bb]uild/
+/TestBranch/[Bb]uilds/
+/TestBranch/[Ll]ogs/
+/TestBranch/[Uu]ser[Ss]ettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
