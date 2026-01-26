@@ -29,6 +29,8 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -7400600903514334080}
+  - {fileID: 6998584052893302575}
+  - {fileID: 11614984693588553}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -199,8 +201,46 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: ae91c49ec0947f344aedea72b922c3db
   m_FloatValues:
-    a760e7cc118840645ac9ef028731f742: -80
+    cb76f750a8cd36a41a62175df5b10c28: 16
+    b0db6d7518afa114ea0bc7a69a9da903: 5000
+    e0b631b5593a06b4d9008d59b15863f9: 0
+    8d85dcf780a8d0b49b9d08ddaf3812be: 100
+    c52d1819fef7cb34a98e84d47e89aba3: 0
+    f71674dace2937642b392693729058aa: 0
+    457f6ffa03308cd4e8b22b25836f12a8: 0.255
+    a760e7cc118840645ac9ef028731f742: 0
+    7b64266e947ef714ba463a0785fbacbd: 0
   m_TransitionOverrides: {}
+--- !u!244 &11614984693588553
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: f557fbcf89b449d4fa993b19451d4845
+  m_EffectName: Chorus
+  m_MixLevel: 7e771ae3819e4ef4f82c429746f05e8e
+  m_Parameters:
+  - m_ParameterName: Dry mix
+    m_GUID: a845fdd4c5a699a4db2f4c442a7ab2c4
+  - m_ParameterName: Wet mix tap 1
+    m_GUID: 6e42dd8af59d2994cafb51c2a154a149
+  - m_ParameterName: Wet mix tap 2
+    m_GUID: 51a7fef8110483f449374c8fb4bfc83f
+  - m_ParameterName: Wet mix tap 3
+    m_GUID: e79b26ff62a0df94083a01a9e0239906
+  - m_ParameterName: Delay
+    m_GUID: daf2f98f154c3ed48aa5ab2750a7f65c
+  - m_ParameterName: Rate
+    m_GUID: 3a519be3862598543b4fbd0d1521efc8
+  - m_ParameterName: Depth
+    m_GUID: 6c53a60d8cb4c7e4e8a128704ff716fb
+  - m_ParameterName: Feedback
+    m_GUID: edd11fbeda9daeb4e811ef811a353c49
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &235858234279717355
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -277,3 +317,19 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &6998584052893302575
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 93d1a8d3692b98e47a133c4b59c63749
+  m_EffectName: Distortion
+  m_MixLevel: 422bfa3f39274e94a882f3dd6b3f0d5c
+  m_Parameters:
+  - m_ParameterName: Level
+    m_GUID: 457f6ffa03308cd4e8b22b25836f12a8
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
